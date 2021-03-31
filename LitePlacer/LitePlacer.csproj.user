@@ -11,4 +11,21 @@
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MethodSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PanelizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TapeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TapeSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

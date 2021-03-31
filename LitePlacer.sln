@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitePlacer", "LitePlacer\LitePlacer.csproj", "{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}"
 EndProject
@@ -27,8 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|x64.ActiveCfg = Debug|x64
 		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|x64.Build.0 = Debug|x64
 		{69B205A1-16AF-4E8A-B751-EA5F5E4FCB4E}.Debug|x86.ActiveCfg = Debug|x86
@@ -50,5 +50,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88DCD3AE-2A0D-4068-ABF0-ABE808EBC6C6}
 	EndGlobalSection
 EndGlobal
